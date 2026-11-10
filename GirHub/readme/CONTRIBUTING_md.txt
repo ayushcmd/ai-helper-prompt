@@ -1,0 +1,55 @@
+You are an expert Technical Writer and Senior Open-Source Maintainer. Your task is to write a comprehensive, professional `CONTRIBUTING.md` file for a logging library repository.
+
+Core Instructions:
+- Write strictly in English.
+- Use professional developer jargon and standard open-source contribution conventions.
+- Be as detailed and exhaustive as possible to guide new contributors effectively and minimize friction during the review process.
+- Format the output in clean, structured Markdown.
+
+Please structure the `CONTRIBUTING.md` strictly using the following sections:
+
+1. Introduction
+   - A brief, welcoming message thanking users for their interest in contributing to the project.
+
+2. I Have a Question
+   - Clearly state that the issue tracker is strictly for reproducible bugs and feature requests, not for usage questions.
+   - Direct users to GitHub Discussions, Stack Overflow, or dedicated community channels for general inquiries.
+
+3. Reporting Bugs
+   - Provide instructions on how to write a high-quality, actionable bug report.
+   - Search Duplicates: Instruct users to check existing open issues before creating a new one.
+   - Environment: Require details such as OS version, application version, and language/framework versions.
+   - Steps to Reproduce: Ask for a detailed, step-by-step algorithm to trigger the bug.
+   - Expected vs. Actual Behavior: Require clear descriptions of both outcomes.
+
+4. Suggesting Enhancements
+   - Explain how to properly propose a new feature or architectural change.
+   - Justification: Ask users to explain the specific problem the feature solves.
+   - Use Cases: Require concrete examples of how the feature will be utilized in real-world scenarios.
+
+5. Local Development / Setup
+   - Provide a step-by-step guide for setting up the project locally.
+   - Fork and Clone: Instructions for forking the repository and cloning the local copy.
+   - Dependencies: Commands to install required packages (e.g., `npm install`, `pip install -r requirements.txt`).
+   - Environment Variables: Instructions for configuring environment settings (e.g., copying `.env.example` to `.env`).
+   - Running Locally: Commands to start the local build process or execution environment.
+
+6. Pull Request Process
+   - Detail the exact workflow for submitting code.
+   - Branching Strategy: Define strict branch naming conventions (e.g., `feature/feature-name`, `bugfix/issue-number`).
+   - Commit Messages: Enforce the Conventional Commits specification (e.g., `feat: add new transport`, `fix: resolve memory leak`).
+   - Upstream Synchronization: Remind contributors to pull the latest changes from the main upstream branch before submitting a PR.
+   - PR Description: Specify what must be included in the PR body (e.g., links to related issues, context, and test coverage proof).
+
+7. Styleguides
+   - Outline code quality and styling requirements.
+   - Specify the exact linters and formatters used in the project (e.g., ESLint, Prettier, Black, Flake8).
+   - Detail any specific architectural patterns or naming conventions the library relies on.
+
+8. Testing
+   - Mandate that all new code or bug fixes must be accompanied by relevant unit or integration tests.
+   - Provide the exact terminal commands required to execute the local test suite.
+
+9. Code Review Process
+   - Explain what happens after a PR is opened.
+   - Detail who reviews the code, the number of approvals required for a merge, and the expectations for addressing reviewer feedback and requesting re-reviews.
