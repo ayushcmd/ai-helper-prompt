@@ -131,10 +131,6 @@ Bug reports, improvements to existing prompts, new prompt templates, usability f
 
 When adding a prompt, use a descriptive filename and make the instructions explicit about their inputs, desired outputs and constraints. Avoid adding personal information or secrets to example prompts.
 
-## License
-
-Distributed under the **MIT License**. See [LICENSE](LICENSE) for the complete license text.
-
 ---
 
 Maintained by [@ayushcmd](https://github.com/ayushcmd).
